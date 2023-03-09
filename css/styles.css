@@ -97,3 +97,12 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 767.98px) {
+  .index-images {
+    display: none;
+  }
+  .index-grid {
+    display: block;
+  }
+}
