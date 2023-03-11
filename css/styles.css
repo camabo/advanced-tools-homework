@@ -98,11 +98,19 @@ p {
   color: white;
 }
 
-@media (max-width: 767.98px) {
-  .index-images {
+@media (max-width: 600px) {
+  .index-page-images {
     display: none;
   }
-  .index-grid {
+
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-color-link {
+    margin: 0 auto;
     display: block;
+    width: 75%;
+    text-align: center;
   }
 }
